@@ -249,3 +249,10 @@ h3 {
     margin-right: 2rem;
     font-size: 1.6rem;
 }
+
+.links-projetos a:hover {
+    color: rgb(7, 53, 107);
+    box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.486);
+    transition: all 0.3s ease-in-out;
+    
+}
