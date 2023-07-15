@@ -8,6 +8,7 @@ font-family: 'Tinos', serif; */
     --job-color: #d7e5ec;
     --hover-color: #00F5A0;
     --white-color: #fff;
+    --gradient: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%)
 }
 
 * {
@@ -158,6 +159,93 @@ h3 {
 }
 
 .section {
+    padding-top: 10rem;
     min-height: 100vh;
 }
 
+.projetos-container {
+    display: grid;
+    border-left: 0.5rem solid rgb(0, 245, 160);
+    background-color: rgb(238, 238, 238);
+    margin-top: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 4rem;
+}
+
+.projetos-container h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.projetos-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0.064rem;
+    padding-top: 1rem;
+    
+}
+
+.projetos-texto-content, .projetos-imagem {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.projetos-texto-content {
+    margin-left: 1.5rem;
+    padding: 2rem;
+}
+
+.projetos-skills {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.50rem;
+}
+
+.projetos-skills button {
+    border-radius: 0.4rem;
+    background: var(--gradient);
+    color: rgb(31, 38, 38);
+    white-space: nowrap;
+    padding: 0.8rem 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    outline: none;
+    border: 0.1rem solid rgb(58, 58, 58);
+}
+
+.links-projetos {
+    margin-top: 4.5rem;
+    width: 100%;
+}
+
+.links-projetos a {
+    color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background: var(--gradient);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+}
