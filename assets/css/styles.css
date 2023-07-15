@@ -254,5 +254,36 @@ h3 {
     color: rgb(7, 53, 107);
     box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.486);
     transition: all 0.3s ease-in-out;
-    
+}
+
+.skill-content {
+    padding-top: 10rem;
+}
+
+.skill-content img {
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+}
+
+.skill-content h4 {
+    margin-top: 1.8rem;
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
