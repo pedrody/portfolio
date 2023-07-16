@@ -322,3 +322,33 @@ h3 {
     flex-wrap: wrap;
     gap: 3rem;
 }
+
+.sobre-content {
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 4rem;
+
+}
+
+.sobre-content-text {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sobre-content-text p {
+    padding: 1.5rem 0;
+}
+
+.sobre-img {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sobre-img img {
+    width: 100%;
+    height: 100%;
+}
