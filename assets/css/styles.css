@@ -33,7 +33,7 @@ a {
 
 h3 {
     color: var(--text-color);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 600;
@@ -65,30 +65,29 @@ h3 {
 
 .menu a {
     color: var(--text-color);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
-
 
 .menu ul {
     list-style: none;
     display: flex;
 }
 
-.menu ul li a, .menu a{
+.menu ul li a {
     color: var(--text-color);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 0 2.8rem;
+    margin-left: 2.8rem;
 }
 
-.menu ul li a:hover {
+.menu a:hover {
     color: var(--hover-color);
     transition: all 300ms ease-in-out;
 }
@@ -99,22 +98,22 @@ h3 {
     padding: 1rem 0px;
     display: flex;
     flex-direction: row;
-    -webkit-box-align: center;
     align-items: center;
     margin-bottom: 2.7rem;
+    gap: 14rem;
 }
 
 .intro-content {
-    width: 65%;
+    width: 47%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    -webkit-box-pack: center;
     justify-content: center;
+    text-align: justify;
     gap: 1.5rem;
 }
 
-.intro-text-content, .intro-img {
+.intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -137,7 +136,7 @@ h3 {
 }
 
 .intro-content h1 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 7.2rem;
     font-style: normal;
     font-weight: 600;
@@ -150,7 +149,7 @@ h3 {
 
 .intro p {
     color: var(--text, #BDEBEA);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
@@ -203,6 +202,10 @@ h3 {
 .projetos-texto-content {
     margin-left: 1.5rem;
     padding: 2rem;
+}
+
+.projetos-texto-content p {
+    text-align: justify;
 }
 
 .projetos-skills {
