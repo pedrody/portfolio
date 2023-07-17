@@ -385,3 +385,65 @@ h3 {
     transform: rotate(-92deg);
     font-size: 2.5rem;
 }
+
+.back-to-top:hover {
+    color: var(--hover-color);
+}
+
+.close-menu {
+    display: none;
+}
+
+
+@media (max-width: 770px) {
+    .menu {
+        background-color: var(--primary-color);
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-content > a {
+        position: fixed;
+        top: 0;
+        padding-top: 4rem;
+    }
+
+    .menu ul li {
+        margin: 2rem 0;
+    }
+
+    .menu-content, .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .close-menu-label::after {
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        color: var(--text-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: 'x';
+        font-size: 3.5rem;
+    }
+}
