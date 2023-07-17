@@ -28,7 +28,7 @@ body {
     background-color: var(--primary-color); 
 }
 
-section, aside {
+aside {
     padding: 0 5rem;
 }
 
