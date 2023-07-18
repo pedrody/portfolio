@@ -204,7 +204,6 @@ h3 {
 
 .projetos-container {
     display: grid;
-    border-left: 0.5rem solid rgb(0, 245, 160);
     background-color: rgb(238, 238, 238);
     margin-top: 10rem;
     padding: 0.5rem;
@@ -378,7 +377,7 @@ h3 {
 .back-to-top {
     position: fixed;
     bottom: 2rem;
-    right: 2rem;
+    right: 0.5rem;
     width: 5rem;
     height: 5rem;
     display: flex;
@@ -429,7 +428,7 @@ h3 {
         position: fixed;
         z-index: 2;
         top: 2rem;
-        right: 2rem;
+        right: 0.5rem;
         color: var(--text-color);
         font-size: 3rem;
         line-height: 3rem;
@@ -468,4 +467,42 @@ h3 {
         width: 60%;
     }
 
+    .projetos-texto-content {
+        margin: 1.5rem 0;
+        padding: 0;
+    }
+
+    .projetos-texto-content p {
+        text-align: center;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .projetos-container p {
+        font-size: 1.6rem;
+        padding: 1rem 0.1rem;
+        margin: 0 1rem;
+    }
+
+    .projetos-skills {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .links-projetos {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+
+    .links-projetos a {
+        margin: auto;
+    }
+
+    .projetos-imagem {
+        margin: 2rem;
+    }
 }
