@@ -505,4 +505,9 @@ h3 {
     .projetos-imagem {
         margin: 2rem;
     }
+
+    .skills-content img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
 }
