@@ -107,9 +107,7 @@ h3 {
 
 .intro p {
     color: var(--text, #BDEBEA);
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 1.8rem;
     line-height: 2.4rem;
 }
 
@@ -212,7 +210,6 @@ h3 {
     padding: 0.5rem;
     border-radius: 0.5rem;
     grid-template-columns: 1.5fr 1.5fr;
-    gap: 4rem;
 }
 
 .projetos-container h4 {
@@ -236,6 +233,12 @@ h3 {
 .projetos-texto-content, .projetos-imagem {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.projetos-imagem img {
+    width: 80%;
 }
 
 .projetos-texto-content {
@@ -327,7 +330,7 @@ h3 {
 }
 
 .sobre-content {
-    padding-top: 10rem;
+    padding-top: 3rem;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
     gap: 4rem;
@@ -394,7 +397,6 @@ h3 {
     display: none;
 }
 
-
 @media (max-width: 770px) {
     .menu {
         background-color: var(--primary-color);
@@ -446,4 +448,24 @@ h3 {
         content: 'x';
         font-size: 3.5rem;
     }
+
+    .intro {
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .intro-content {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .intro-img {
+        align-items: center;
+    }
+
+    .intro-img img {
+        width: 60%;
+    }
+
 }
