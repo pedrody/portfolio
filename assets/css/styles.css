@@ -510,4 +510,12 @@ h3 {
         width: 7.5rem;
         height: 7.5rem;
     }
+
+    .sobre-content {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-content-text {
+        text-align: center;
+    }
 }
