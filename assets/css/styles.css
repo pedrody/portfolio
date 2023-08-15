@@ -229,7 +229,7 @@ h3 {
     
 }
 
-.projetos-texto-content, .projetos-imagem {
+.projetos-texto-content, .projetos-imagem, .projeto-calculadora {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -504,6 +504,14 @@ h3 {
 
     .projetos-imagem {
         margin: 2rem;
+    }
+
+    .projeto-calculadora {
+        margin: 2rem;
+    }
+
+    .projeto-calculadora img {
+        width: 100%;
     }
 
     .skills-content img {
