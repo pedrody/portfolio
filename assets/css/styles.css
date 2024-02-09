@@ -237,6 +237,7 @@ h3 {
 
 .projetos-imagem img {
     width: 80%;
+    border-radius: 0.5rem;
 }
 
 .projetos-texto-content {
